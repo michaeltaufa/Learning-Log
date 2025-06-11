@@ -1,0 +1,12 @@
+<!--This will be the base template to use to build other pages
+for the Learning Logs website project-->
+
+
+<!--Below is the link page heading back to Home Page-->
+
+<p>
+  <a href="{% url 'learning_logs:index' %}">Learning Log</a> -
+  <a href="{% url 'learning_logs:topics' %}">Topics</a>
+</p>
+
+{% block content %}{% endblock content %}

@@ -9,8 +9,6 @@ class Topic(models.Model):
     def __str__(self):
         return self.text
 
-
-
 class Entry(models.Model):
     topic = models.ForeignKey(Topic, on_delete=models.CASCADE)
     text = models.TextField()

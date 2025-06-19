@@ -33,6 +33,7 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     # My Apps:
     'learning_logs',
+    'accounts',
 
     # Default Django Apps
     'django.contrib.admin',
